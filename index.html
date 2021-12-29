@@ -19,7 +19,7 @@
                 <h2 class="txtarea">Please Enter your quote here <img src="img/smiles.png" alt="smile" class="img"></h2><br>
                 <form action="#">
                     <textarea name="quot" id="quot" class="txtarea" cols="30" rows="4" placeholder="Enter Quote here"></textarea><br><br>
-                    <button type="submit" class="button">Upload</button>
+                    <button type="submit" class="button" onclick="quote()">Upload</button>
                     <button type="reset" class="button">Clear</button>
                 </form>
     
@@ -29,6 +29,7 @@
         <div class="right">
             <div class="quote-display">
             <h2>"QUOTES"</h2>
+            <p id="display"></p>
             </div>
             
         </div>
@@ -43,6 +44,6 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="script.css"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
